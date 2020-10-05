@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+ body{
+    
+    background:#000;
+  }
+
+  .fullpage{
+    width:960px;
+    margin:auto;
+  }
+
+  .nkanu .white{
+    color: white !important;
+  }
+
+
+  .white{
+      color: white;
+      padding-top: 2%;
+  }
+
+  .Red{
+      color: red;
+  }
+
+  .hero{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: cover;
+    background-image: url(../images/gem.jpeg);
+    font-family: Anton;
+  }
+
+  .navbar{
+    text-decoration: none;
+     border-radius: 30px;
+     margin-top: none;
+     color: aliceblue;
+  }
+
+  .btn-1{
+      width: 57%;
+      margin-left: 60px;
+  }
+
+  ul.slider, ul.slider1, ul.slider2, ul.slider3{
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ul.slider li.slide, ul.slider1 li.slide1, ul.slider2 li.slide2, ul.slider3 li.slide3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 6%;
+transform: translateX(-100%);
+    transition: all 500ms ease-in-out;
+}
+ul.slider li.slide.active,ul.slider1 li.slide1.active, ul.slider2 li.slide2.active, ul.slider3 li.slide3.active {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.slider .content, .slider1 .content1, .slider2 .content2, .slider3 .content3{
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .content .content-img, .slider1 .content1 .content-img1, .slider2 .content2 .content-img2, .slider3 .content3 .content-img3{
+  width:19%;
+  height:auto;
+  padding:0;
+}
+.no-padding{
+    padding: 0;
+}
+
+.footer{
+  min-height: 250px;
+  color: #eee;
+  padding: 30px 0;
+}
+
+.list-group .list-group-item{
+  background-color: #000;
+}
+
+ .hhh-nav{
+  background-image: url(../images/asset0.jpeg);
+}
+  
+
+
+
+
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
